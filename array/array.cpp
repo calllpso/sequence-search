@@ -4,8 +4,6 @@ using namespace std;
 
 int main()
 {
-	setlocale(LC_CTYPE, "rus");
-
 	int size = -1, k = -1, finish = -1; // k - количество строк с последовательностями   
 	bool a, b, c; // тип последовательности (a - возрастающая, b - убывающая, c - ни убываюищая ни возрастающая)
 	a = b = c = 0;
